@@ -3,7 +3,10 @@
 
 int main(void)
 {
+    //
     const int MINE = 2;
+    
+    // ask user for amount of points
     int points = get_int("How many points did you lose? ");
 
     // input points vs mine
